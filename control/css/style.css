@@ -1,0 +1,42 @@
+html, body{ font-family:verdana; font-size:11px;  background:#FFF url(../images/bg-bar.jpg) repeat-x; color: #000}
+a:link { color: #303; text-decoration: none;}
+a:visited { color: #303; text-decoration: none;}
+a:hover { color: #F60;}
+a:active { color: #303; text-decoration: none;}
+
+/* Login Frame */
+.login-top-bar{ margin: 0 auto; position:absolute; width:600px; height: 168px; left: 500px; top: 13px; padding:10px; }
+.login-container { position:absolute; width:600px; height: 300px; left: 400px; top: 100px; padding:10px; background: #FFF }
+.login-desc { position:absolute;  width:230px; left: 20px; top: 20px; height:120px; padding:5px 20px;}
+.login-form { position:absolute;  width:300px; left: 300px; top: 20px; border-left:1px solid #F9F9F9; height:120px; padding:5px 20px}
+.input { border:1px solid  #666; height:17px }
+.btn { border:1px solid  #666; height:22px; color:#666 }
+.error {  position:absolute;  width:200px; left: 300px; top: 190px;}
+.errorMsg { color:#F30; margin-top:10px }
+.support {  position:absolute;  width:600px; left: 270px; top: 230px;}
+
+/* page builder */
+
+.top-banner{ position:relative; width:100%; height: 20px;  min-width:800px;}
+.container {position:relative; width:98%; margin-left:10px; margin-right:10px; background-color:#FFF; min-width:900px;}
+.top-bar { position: relative; width:98%; color: #666; text-align:right; padding:2px; height:15px; margin:0px; min-width:800px  }
+.dashboard {position:relative; height: 60px; margin:10px; background-color: #B9E9FF; padding:5px; min-width:800px}
+.left-side-menu { padding:5px; top:110px; left:20px }
+.welcome-bar { position:relative; color: #666; text-align: left; padding:10px; height:10px; min-width:800px}
+.time { color: #F30; float:right; margin-right:20px;}
+.controlboard { position:relative;  margin-top:6px;  padding:0px;}
+.footer { position:relative; color: #666; text-align:center; padding:10px 0 0 0; margin-bottom:28px; min-width:800px; clear:both; }
+.dockbtm {position:fixed;	height:24px; border-right:1px solid #AAA; border-left:1px solid #AAA; background:#FFF url(../images/btm-bar.jpg); z-index:1; min-width:800px;	bottom:0; width:98%}
+.clear { clear:both; height:1px;}
+
+
+/* link */
+#nav { width:195px;padding:5px; position:relative; }
+#nav ul {list-style: none; margin: 0; padding: 5px;}
+#nav li {border-bottom: 1px dotted #F4F4F4; height:30px; padding:5px}
+#nav li a{display: block;padding: 5px 5px 5px 5px; color: #300}
+#nav li a:hover{ color:#F60}
+
+/* Hid and show content */
+.noshow { position: fixed; display:none; margin-top:0px; top:0; border:1px solid #666; height:22px; width:100px; color:#F00; margin-left:600px; background-color: #FFF}
+.show {display:block;	position:fixed;	top:0;	bottom:0;	left:500px;	right:0;}

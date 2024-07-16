@@ -1,0 +1,32 @@
+<li>
+						<a <?php if ($tk_m == 'system_setting') {
+                                ?> style="background-color: #e9ecf2;" <?php 
+                            } ?> href="<?=base_url()?>setting/backupDatabase">
+							Backup Database
+						</a>
+					</li>
+
+
+
+ public function backupDatabase()
+    {
+        $this->load->dbutil();
+
+        // Backup your entire database and assign it to a variable
+         $prefs = array(
+            'format'      => 'zip',             
+            'filename'    => 'my_db_backup.sql',   // File name - NEEDED ONLY WITH ZIP FILES
+            'add_drop'    => TRUE,              // Whether to add DROP TABLE statements to backup file
+            'add_insert'  => TRUE,              // Whether to add INSERT data to backup file
+            'newline'     => "\n"               // Newline character used in backup file
+          );
+
+    $backup = $this->dbutil->backup($prefs);
+
+        // Load the file helper and write the file to your server
+        $this->load->helper('file');
+        $db_name = APPPATH.'/backup-on-'. date("Y-m-d-H-i-s") .'.zip';
+       write_file($db_name, $backup);
+
+        redirect(base_url('Dashboard'));
+    }

@@ -1,0 +1,7 @@
+.title-bar{width:98%; background:url(../images/hd.png); height:68px; margin-left:10px; padding-top:13px}
+.wrapper{ width:98%; margin-left:10px; }
+.cont{ width:97%; border:1px solid #EEE; padding:10px; min-height:300px; position:relative; overflow:auto;}
+.input { border:1px solid  #666; height:17px }
+.btn { border:1px solid  #666; height:30px; color:#666 }
+.errorMsg { color:#F30; }
+.txtWhite { color: #FFF; }

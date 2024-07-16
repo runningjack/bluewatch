@@ -1,0 +1,21 @@
+#panel { position:absolute; right:10px;  width:68%; background-color: #FFF; border:1px dotted #E5E5E5; padding:10px; top:70px}
+#resizable { width: 50%;  background: #FFF; border: 1px solid #EBEBEB; height:440px; padding:10px; left:10px; width:250px;  min-width:250px; overflow:scroll; overflow-x:hidden }
+.errMsg {	color: #F00;}
+
+.txtbox { border:1px solid #CCC; height:19px; }
+.submitbtn { border:1px solid #333; background-color: #F4F4F4; color: #333; height:30px }
+.noshow { position: fixed; display:none; margin-top:0px; top:0; border:1px solid #666; height:22px; width:100px; color:#F00; margin-left:600px; background-color: #FFF}
+.show {display: block;	position:fixed;	top:0;	bottom:0;	left:500px;}
+.wrapper{ width:98%; margin-left:10px; }
+.cont{ width:100%; border:1px solid #EEE; padding:10px; min-height:300px; position:relative; overflow:auto;}
+#nonCategorisedPages { width:98%;padding:5px;  }
+#nonCategorisedPages ul {list-style: none; margin: 0; padding: 5px;}
+#nonCategorisedPages li {height:30px; padding:5px}
+#nonCategorisedPages li a:link{display: block;padding: 5px 5px 5px 5px; color: #3CF}
+#nonCategorisedPages li a:hover{ color:#F60}
+.search{ position:relative; width:250px; padding:10px; margin-right:5px; text-align:right; top:10px;}
+
+<!-- View Web Page Builder -->
+
+
+
